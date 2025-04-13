@@ -1,0 +1,16 @@
+{
+  "name": "pastor-jucelino",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "dotenv": "^16.3.1"
+  }
+}
